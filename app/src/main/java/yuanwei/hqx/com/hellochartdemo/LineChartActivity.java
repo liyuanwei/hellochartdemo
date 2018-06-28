@@ -298,8 +298,8 @@ public class LineChartActivity extends AppCompatActivity {
                 Axis axisX = new Axis();
                 Axis axisY = new Axis().setHasLines(true);
                 if (hasAxesNames) {
-                    axisX.setName("Axis X");
-                    axisY.setName("Axis Y");
+                    axisX.setName("时间");
+                    axisY.setName("温度");
                 }
 
                 axisX.setTextSize(8);//设置字体的大小
